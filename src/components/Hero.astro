@@ -3,6 +3,7 @@ const personalImageAlt = "Miguel Ángel";
 import Badge from "../components/Badge.astro";
 import MailIcon from "../components/icons/Mail.astro";
 import SocialPill from "../components/SocialPill.astro";
+import GitHub from "./icons/GitHub.astro";
 ---
 
 <div class="max-w-xl">
@@ -26,13 +27,17 @@ import SocialPill from "../components/SocialPill.astro";
   >
     +1 año de experiencia. <strong
       >Desarrollador web, actualmente estudiando.</strong
-    > de Barranquilla, Colombia 🇨🇴. Especializado en el desarrollo de Paginas Web
-    únicas.
+    > de Barranquilla, colombia. Especializado en el desarrollo de Paginas Web únicas.
   </p>
   <nav class="flex flex-wrap gap-4 mt-8">
     <SocialPill href="mailto:juanantoniogutierrezhoyos0911@gmail.com">
       <MailIcon class="size-4" />
       Contáctame
+    </SocialPill>
+
+    <SocialPill href="https://github.com/shad0wscr1pt3r">
+      <GitHub class="size-4" />
+      Github
     </SocialPill>
   </nav>
 </div>
